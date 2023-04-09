@@ -27,7 +27,7 @@ export const arbitrum: Layer2 = {
     warning:
       'Fraud proof system is fully deployed but is not yet permissionless as it requires Validators to be whitelisted.',
     description:
-      "Arbitrum One is an Optimistic Rollup that aims to feel exactly like interacting with Ethereum, but with transactions costing a fraction of what they do on L1.\
+      "Arbitrum One es Optimistic Rollup that aims to feel exactly like interacting with Ethereum, but with transactions costing a fraction of what they do on L1.\
       Centralized Sequencer receives users' transactions and regularly sends the transaction batch to mainnet Ethereum. Independent Validators (currently whitelisted)\
       read transaction batches from L1, execute them and submit a resulting L2 state root to L1. Any other Validator can challenge the state root within the challenge window (7-days). \
       The challenge will result in an interactive fraud proof game that will be eventually settled by L1. As long as there is at least one honest Validator, users are guaranteed that\
